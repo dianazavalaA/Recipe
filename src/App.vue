@@ -32,8 +32,9 @@ import './assets/global.css';
   max-width: 800px;
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
   /* Bordes redondeados para dar un aspecto más moderno */
+  border-radius: 8px;
+
 }
 
 /* Estilo del título principal */
@@ -85,5 +86,19 @@ li strong {
   /* Resaltar títulos dentro de la lista */
   color: #723e55;
   font-weight: 700;
+}
+
+/* Media query para pantallas de 360px a 800px */
+@media only screen and (width >=360px) and (width <=800px) {
+  .app-container {
+    background-color: #ffffff;
+    padding: 0px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Bordes redondeados para dar un aspecto más moderno */
+    border-radius: 8px;
+
+  }
 }
 </style>
