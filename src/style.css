@@ -3,3 +3,30 @@
   margin: 0 auto;
   padding: 2rem;
 }
+
+/* Media query para pantallas de 360px a 800px */
+@media only screen and (width >= 360px) and (width <= 800px) {
+  #app {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+/* Media query para pantallas de 768px a 1024px */
+@media only screen and (width >= 768px) and (width <= 1024px) {
+  #app {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+}
+
+/* Media query para pantallas de 280px a 653px */
+@media only screen and (width >= 280px) and (width <= 653px) {
+  #app {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}

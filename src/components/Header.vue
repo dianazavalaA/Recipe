@@ -56,7 +56,7 @@ export default {
 }
 
 /* Media query para pantallas de 360px a 800px */
-@media (min-width: 360px) and (max-width: 800px) {
+@media only screen and (width >=360px) and (width <=800px) {
 
     /* Reducir tamaño de fuente en pantallas pequeñas */
     .recipe-title {

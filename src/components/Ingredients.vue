@@ -67,7 +67,7 @@ export default {
 
 
 /* Media query para pantallas de 360px a 800px */
-@media (min-width: 360px) and (max-width: 800px) {
+@media only screen and (width >=360px) and (width <=800px) {
 
     .ingredient-component {
         /* Reducir el padding en pantallas pequeñas */

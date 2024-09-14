@@ -77,35 +77,4 @@ export default {
     flex-direction: column;
     letter-spacing: 0.2px;
 }
-
-/* Media query para pantallas de 360px a 800px */
-@media (min-width: 360px) and (max-width: 800px) {
-
-    .time-info-component {
-        /* Reducir el padding en pantallas pequeñas */
-        padding: 2px;
-
-    }
-
-    .time-title {
-        /* Reducir tamaño de la fuente para pantallas pequeñas */
-        font-size: 1.5rem;
-
-    }
-
-    .time-item {
-        /* Reducir el espacio entre los elementos */
-        gap: 5px;
-        /* Reducir el tamaño de letra de los items */
-        font-size: 0.8rem;
-
-    }
-
-    .time-list {
-        /* Añadir espacio entre los items */
-        gap: 10px;
-
-    }
-
-}
 </style>
