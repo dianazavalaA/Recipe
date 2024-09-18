@@ -60,7 +60,7 @@ export default {
 }
 
 .instructions-title {
-    font-size: 1.75rem;
+    font-size: 1.8rem;
     margin-bottom: 15px;
     font-weight: bold;
     color: #723e55;
@@ -108,5 +108,16 @@ export default {
     /* Alineación izquierda dentro del elemento de lista */
     top: 0;
     /* Alineación superior */
+}
+
+
+/* Media query para pantallas de 360px a 800px */
+@media only screen and (width >=360px) and (width <=800px) {
+
+    .instructions-component {
+        /* Reducir el padding para pantallas más pequeñas */
+        padding: 10px;
+
+    }
 }
 </style>

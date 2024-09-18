@@ -4,9 +4,26 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: "Open Sans", sans-serif;
+  line-height: 24px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Serif";
+}
+
+p {
+  font-family: "Indie Flower";
+}
+
+ul,
+li {
+  font-family: "Indie Flower";
+}
 /* Media query para pantallas de 360px a 800px */
 @media only screen and (width >= 360px) and (width <= 800px) {
   body,

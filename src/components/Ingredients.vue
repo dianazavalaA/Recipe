@@ -45,7 +45,7 @@ export default {
 }
 
 .ingredient-title {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 10px;
     font-weight: bold;
     color: #723e55;
@@ -60,7 +60,7 @@ export default {
 }
 
 .ingredient-component {
-    padding: 10px;
+    padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
 }
@@ -71,7 +71,7 @@ export default {
 
     .ingredient-component {
         /* Reducir el padding en pantallas pequeñas */
-        padding: 2px;
+        padding: 10px;
 
     }
 

@@ -30,8 +30,9 @@ export default {
 .header-component {
     text-align: center;
     margin-bottom: 20px;
-    padding: 0 15px;
     /* Añadir padding para los márgenes laterales en pantallas pequeñas */
+    padding: 20px;
+
 }
 
 .recipe-image {
@@ -47,6 +48,7 @@ export default {
     margin: 0;
     font-weight: bold;
     text-align: left;
+
 }
 
 .recipe-description {
@@ -72,7 +74,7 @@ export default {
 
     .header-component {
         /* Reducir el padding para pantallas más pequeñas */
-        padding: 0 10px;
+        padding: 10px;
 
     }
 }

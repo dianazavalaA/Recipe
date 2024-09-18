@@ -52,10 +52,11 @@ export default {
 <style scoped>
 .nutrition-component {
     margin-bottom: 20px;
+    padding: 20px;
 }
 
 .nutrition-title {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     color: #5b2c1d;
     margin-bottom: 10px;
@@ -96,5 +97,15 @@ export default {
 
 .nutrition-table tr:not(:last-child) td {
     border-bottom: 1px solid #ddd;
+}
+
+/* Media query para pantallas de 360px a 800px */
+@media only screen and (width >=360px) and (width <=800px) {
+
+    .nutrition-component {
+        /* Reducir el padding para pantallas más pequeñas */
+        padding: 10px;
+
+    }
 }
 </style>

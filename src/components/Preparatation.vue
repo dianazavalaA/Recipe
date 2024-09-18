@@ -38,8 +38,8 @@ export default {
 
 <style scoped>
 .time-info-component {
-
-    padding: 10px;
+    background: #fff7fc;
+    padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
 }
@@ -76,5 +76,20 @@ export default {
     display: flex;
     flex-direction: column;
     letter-spacing: 0.2px;
+}
+
+
+/* Media query para pantallas de 360px a 800px */
+@media only screen and (width >=360px) and (width <=800px) {
+
+    .time-info-component {
+        /* Reducir el padding para pantallas más pequeñas */
+        padding: 10px;
+        background: #fff7fc;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 </style>
