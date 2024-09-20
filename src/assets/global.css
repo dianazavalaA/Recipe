@@ -13,16 +13,21 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Noto Serif";
+  font-family: "SUSE", sans-serif;
 }
 
 p {
-  font-family: "Indie Flower";
+  font-family: "SUSE", sans-serif;
 }
 
 ul,
 li {
-  font-family: "Indie Flower";
+  font-family: "SUSE", sans-serif;
+}
+
+tr,
+td {
+  font-family: "SUSE", sans-serif;
 }
 /* Media query para pantallas de 360px a 800px */
 @media only screen and (width >= 360px) and (width <= 800px) {
