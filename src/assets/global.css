@@ -37,6 +37,28 @@ td {
     background-color: transparent;
     padding: 0;
   }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "SUSE", sans-serif;
+  }
+
+  p {
+    font-family: "SUSE", sans-serif;
+  }
+
+  ul,
+  li {
+    font-family: "SUSE", sans-serif;
+  }
+
+  tr,
+  td {
+    font-family: "SUSE", sans-serif;
+  }
 }
 
 /* Media query para pantallas de 768px a 1024px */
@@ -45,6 +67,28 @@ td {
   html {
     background-color: #f3e5d8;
     padding: 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "SUSE", sans-serif;
+  }
+
+  p {
+    font-family: "SUSE", sans-serif;
+  }
+
+  ul,
+  li {
+    font-family: "SUSE", sans-serif;
+  }
+
+  tr,
+  td {
+    font-family: "SUSE", sans-serif;
   }
 }
 
@@ -55,5 +99,27 @@ td {
     /* Quitar el fondo en pantallas pequeñas */
     background-color: transparent;
     padding: 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "SUSE", sans-serif;
+  }
+
+  p {
+    font-family: "SUSE", sans-serif;
+  }
+
+  ul,
+  li {
+    font-family: "SUSE", sans-serif;
+  }
+
+  tr,
+  td {
+    font-family: "SUSE", sans-serif;
   }
 }
